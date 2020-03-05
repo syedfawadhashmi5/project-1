@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+   body {
+
+   }
+  .div-container 
+  {
+      width: 100%;
+  }
+  .column-1 {
+    float: left;
+    width: 20%;
+    padding: 10px;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .box-1 
+  {
+    background-color: rgb(227, 229, 231);
+    height: 17em;
+    border-radius: 6px
+  }
+.inner-box 
+{
+    position: relative;
+    padding: 38px 40px;
+}
+  .inner-box ul 
+{
+    list-style-type: none;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding: 12px;
+}
+.box-2 
+{
+  background-color: rgb(227, 229, 231);
+  border-radius: 6px;
+  margin: 30px 0;
+}
+.text-box 
+{
+    text-align: center;
+    padding: 26px 0 0
+}
+.text-box h1 
+{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    border-bottom: 2px solid black;
+}
+.inner-box-2
+{
+    position: relative;
+    padding: 15px 40px;
+}
+  .column-2 {
+    float: left;
+    width: 80%;
+    padding: 10px;
+  }
+  
+.container 
+{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row 
+{
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+
+}
+.imgae-box 
+{
+ width: 100%;
+}
+.inner-image-box-1 img
+{
+ width: 100%;
+}
+.inner-image-box-1 {
+    position: relative;
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  .inner-image-box-1 span
+  {
+    position: absolute;
+    right: 7px;
+    top: 85%;
+    background: white;
+  }
+  .inner-image-box-2 {
+    float: left;
+    width: 14.33%;
+    padding: 5px;
+  }
+  .inner-image-box-3 {
+    float: left;
+    width: 50.33%;
+    padding: 5px;
+  }
+  .right-side 
+  {
+   width: 70%;
+   float: right;
+  }
+  .inner-image-box-4 {
+    float: left;
+    width: 66.33%;
+    padding: 5px;
+  }
+  .left-side
+  {
+    position: absolute;
+    width: 24%;
+    float: left;
+    right: 11px;
+  }
+  .inner-box-5 
+  {
+    border: 1px solid;
+    height: 17em;
+    border-radius: 6px;
+    }
+.main-text h1
+{
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 0px;
+  border-bottom: 2px solid black;
+  border-width: 5px;
+
+}
+.main-text-2 
+{
+  text-align: center;
+  padding: 24px 0;
+}
+.main-text-2 h1
+{
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.main-text-2 p
+{
+  font-size: 18px;
+  margin-bottom: 0px;
+}
